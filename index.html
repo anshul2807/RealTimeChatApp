@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-time Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-header">
+      <h2>Real-time Chat</h2>
+      <p class="online-users"></p>
+    </div>
+    <div class="chat-log"></div>
+    <div class="chat-input">
+      <textarea id="message-input" placeholder="Type your message here"></textarea>
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+  <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
